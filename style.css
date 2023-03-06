@@ -1,0 +1,43 @@
+/* --  globales y generales ---*/
+:root{
+   
+    --colorBlue:#5F9DF7;
+    --colorWhite:#F5F5F5;
+    --colorBlack:#000000;
+    --colordarkGrey:#5A5A5A;
+    --colorLightGrey:#F8F9Fa;
+    --colorMediumGray:#d5d5d5;
+}
+
+.fontWhite{
+    color: var( --colorWhite);
+}
+
+.fontBlack{
+    color: var(--colorBlack);
+}
+
+.fontBLue{
+    color: var(--colorBlue);
+}
+
+.backgroundGrey{
+    background-color: var(--colorLightGrey);
+}
+
+.backgroundBlue{
+    background-color: var(--colorBlue);
+}
+
+.cabecera{
+    background-color: pink;
+}
+.iconSkill{
+    color:goldenrod;
+    font-size: 30px;
+    
+}
+.parrafo{
+font-size: 25px;
+color: #5A5A5A;
+}

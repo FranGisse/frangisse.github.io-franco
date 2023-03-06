@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"><!-- link bootstrap CSS-->
+    <script src="https://kit.fontawesome.com/a0fd3005f4.js" crossorigin="anonymous"></script><!-- link de fontawesom-->
+    <link rel="stylesheet" href="./style.css"><!-- link de CSS-->
+    <title>Portafolio</title>
+</head>
+<body>
+  <!-- inicio de la navegacion-->
+    <nav class="container-fluid  navbar navbar-expand-lg bg-light">
+        <div class="row container-fluid">
+          <a class=" col-4 navbar-brand" href="#"><h1>Franco Gisela</h1></a>
+          <button class=" col navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="col-6 collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutMe">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#Contact">Contact</a>
+              </li>
+            </ul>
+         </div>
+         <div class="redes col-2 d-flex align-items-center justify-content-between">
+            <a href="https://www.google.com/" target="_blank">
+              <i class="iconoRedes fa-brands fa-linkedin "></i>
+            </a>
+
+            <a href="https://github.com/FranGisse" target="_blank">
+              <i class="iconoRedes fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://www.google.com/" target="_blank">
+              <i class="iconoRedes fa-brands fa-telegram"></i>
+            </a>
+
+            <a href="https://www.google.com/" target="_blank">
+              <i class="iconoRedes fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+    </nav>
+ <!-- fin de la navegacion-->
+
+  <!-- inicio de la cabecera-->
+    <header class="container-fluid cabecera" >
+        <div class="row d-flex justify-content-center align-items-center p-5 h-100">
+            <div class="texto col-5 px-5">
+                <p>Profesion </p>
+                <h2>FULL STACK DEVELOPER</h2>
+                <p>Pilar , Buenos Aires</p>
+                <div class="botonera mt-5">
+                  <a class="viewWorkBtn text-decoration-none me-4 p-3" href="https://github.com/FranGisse"> Proyectos Personal</a>
+                  <a class="fontBlack" href="#"> Contacto<i class="fa-solid fa-circle-arrow-down"></i></a>
+                </div>
+            </div>
+            <a class="fontBlack col-2 align-self-end" href="#Contact"><i class="fa-solid fa-arrow-down"></i></a>
+            <img class="col-5 w-25 border border-5 rounded-circle p-0" src="./imagen/foto de perfil.jpg"  alt="foto de Perfil"/>            
+        </div>
+    </header> 
+    <!-- fin de la cabecera-->
+
+    <!-- inicio de la parte princial del sitio-->
+    <main class="container-fluid">
+      <section class="row flex-column align-items-center" id="aboutMe">
+        <p class="text-center textAbout">Datos Personales</p>
+        <h2 class="text-center">Perfil</h2>
+        <p> <span class="fw-bold textName">Franco Gisela</span></p>
+        <p class="parrafo">Tecnica en informatica con 5 años de experiencia en la insdustria de la tecnologia.Especializada en formar apoyo y asesoria Tecnica a empresas con mas de 500 empleados.</p>
+        <table>
+          <tr>
+            <th>Nombre:</th>
+            <th>Email:</th>
+            <th>Fecha de Nacimiento:</th>
+            <th>Vivo:</th>
+          </tr>
+          <tr>
+            <td>Franco Gisela</td>
+            <td>franco_91@hotmail.com</td>
+            <td>30 Abril 1994</td>
+            <td>Buenos Aires, Argentina</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="row flex-column align-items-center backgroundGrey" id="Skills">
+        <p class="text-center textAbout">Conocimientos</p>
+        <h2 class="text-center">HABILIDADES</h2>
+        <div class="gritTemplate">
+          <div class=" d-flex flex-column align-items-center">
+            <i class="iconSkill fa-solid fa-brands fa-html5"></i>
+            <p class="fs-5">HTML</p>
+          </div>
+          <div class=" d-flex flex-column align-items-center">
+            <i class="iconSkill fa-solid fa-brands fa-css3-alt"></i>
+            <p class="fs-5">CSS</p>
+          </div>
+          <div class=" d-flex flex-column align-items-center">
+            <i class="iconSkill fa-solid fa-brands fa-bootstrap"></i>
+            <p class="fs-5">Bootstrap</p>
+          </div>
+          <div class=" d-flex flex-column align-items-center">
+            <i class="iconSkill iconoHabilidad fa-brands fa-js"></i>
+            <p class="fs-5">JavaScript</p>
+          </div>
+          <div class=" d-flex flex-column align-items-center">
+            <i class="iconSkill fa-solid fa-brands fa-react"></i>
+            <p class="fs-5">React</p>
+          </div>
+          <div class=" d-flex flex-column align-items-center">
+            <i class="iconSkill fa-solid fa-brands fa-figma"></i>
+            <p class="fs-5">Figma</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="row align-items-center justify-content-center" id="ResumeCv">
+        <p class="textAbout text-center fw-bold">Resumen</p>
+        <h2 class="col-md-12 text-center pt-5">Experiencia y Educacion</h2>
+        <div class="Education col-md-4">
+          <h3 class="pb-3 pt-5 ">Educacion</h3>
+          <div class="cardResume">
+            <h4 class="fs-5 borderBlue" >Programacion </h4>
+            <p class="fs-6">Universidad INTI / 2023</p>
+            <p class="textResume ">Desarrollo Front-end.</p>            
+          </div>
+          <div class="cardResume">
+            <h4 class="fs-5">Diplomatura en Programacion wed Full Stack</h4>
+            <p class="fs-6">Universidad Tecnologica Nacional.</p>
+            <p class="textResume">Logica computacional y pensamiento resolutivo.</p>           
+          </div>
+          <div class="cardResume">
+            <h4 class="fs-5" >Tecnico Informatico Aplicada a la Salud.</h4>
+            <p class="fs-6">Universidad Nacional de Jose C. Paz.</p>
+            <p class="textResume">Tecnologias digitales en el ambitos de la salud.</p>           
+          </div>
+        </div>
+        <div class="Experience col-md-4">
+          <h3 class="pb-3 pt-5">Experiencia</h3>
+          <div class="cardResume">
+            <h4 class="fs-5">Sr. Font End Developer</h4>
+            <p class="fs-6">Apple Inc / 2022-Current</p>
+            <p class="textResume">Mantener y optimizar sitios wed y asegurando accesibilidad de wed.</p> 
+          </div>
+          <div class="cardResume">
+            <h4 class="fs-5">Jr. Front-end</h4>
+            <p class="fs-6">Apple Inc / 2021/2022</p>
+            <p class="textResume">Aplicacion e interacion directamente con la experiencia del usuario.</p> 
+          </div>
+          <div class="cardResume">
+            <h4 class="fs-5">Develope</h4>
+            <p class="fs-6">Apple Inc / 2020</p>
+            <p class="textResume">Lenguaje de programacion.</p> 
+          </div>
+        </div>
+      </section>
+
+     <section class="row align-items-center backgroundBlue" id="Contact">
+        <div class="col-6">
+          <h2 class="fontWhite">Contactame!</h2>
+          <p>Para nuevos proyectos y desafios..enviame un email y pactamos una reunion.</p>
+        </div>
+        <div class="col-6">
+          <h2 class="fontWhite">Quieres conocer mas de mi..</h2>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label fw-bold ">Nombre:</label>
+              <input type="text" class="form-control" id="exampleInputName" aria-describedby="textHelp" placeholder="Juan Perez">
+
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold ">Email:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@ejemplo.com">
+            </div>
+            <div class="mb-3 ">
+              <label class="form-label fw-bold " for="exampleCheck1">Comentario:</label>
+              <textarea class="form-control" name="message" id="message" placeholder="place here your doubts"></textarea>
+            </div>
+            <button type="submit" class="btn viewWorkBtn rounded-0"> Enviar <i class="fa-solid fa-arrow-right"></i></button>
+          </form>
+        </div>
+        
+      </section>
+    </main>
+    <!-- fin de la princial del sitio-->
+
+    <!-- inicio de la parte princial del sitio-->
+    <footer class="container-fluid viewWorkBtn p-4">
+      <div class="row justify-content-center px-5">
+        <p class="col-6  text-center">
+          Copyright &copy; 2023 <span class="fontBLue">Franco.</span>All Rights Reserved
+        </p>
+        <p class="col-6  text-center">
+          Designed by <span class="fontBLue"></span>
+        </p>
+      </div>
+    </footer>
+
+
+    <!--  archivos JavaScript de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
